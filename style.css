@@ -1,0 +1,256 @@
+body {
+   font-family: 'PT Sans', sans-serif;
+   background-color: #252529;
+   margin: 0;
+   color: #fff;
+   line-height: 1.6;
+}
+
+a {
+   text-decoration: none;
+   color: #ccc;
+}
+
+#showcase {
+   margin: 0;
+   padding: 0;
+   background: url('background3.jpg') no-repeat center/cover;
+   width: 100%;
+   height: 100vh;
+   position: relative;
+   overflow-y: hidden;
+}
+
+#showcase .container {
+   margin-top: 25vh;
+}
+
+#showcase h1 {
+   font-size: 4rem;
+   margin-bottom: 0;
+}
+
+#showcase h2 {
+   font-size: 2rem;
+}
+
+nav {
+   height: 60px; /* Adjusted for desktop */
+   width: 100%;
+   background-color: #252529;
+   color: rgb(51, 34, 34);
+   position: fixed;
+}
+
+nav ul {
+   margin: 0;
+   padding: 0;
+}
+
+nav li {
+   display: inline;
+   float: left;
+}
+
+nav a {
+   display: inline-block;
+   width: 120px; /* Adjusted for desktop */
+   text-align: center;
+   text-decoration: none;
+   padding: 20px 0; /* Adjusted for desktop */
+   color: #eee;
+}
+
+nav li:hover {
+   background-color: #444;
+}
+
+.container {
+   max-width: 1180px;
+   text-align: center;
+   margin: 0 auto;
+   padding: 0 2rem; /* Adjusted for desktop */
+}
+
+.lead {
+   font-size: 1.3rem;
+}
+
+footer .footer-cols {
+   display: grid;
+   grid-gap: 20px;
+   grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); /* Adjusted for desktop */
+   padding: 2rem;
+   text-align: left;
+   font-size: 14px;
+}
+
+footer .footer-cols ul {
+   list-style: none;
+}
+
+footer .footer-cols ul li:first-child {
+   font-size: 1.2rem;
+   padding-bottom: 0.5rem;
+   border-bottom: #444 solid 1px;
+   margin-bottom: 1rem;
+}
+
+footer .footer-bottom {
+   background-color: #333;
+   padding: 1rem;
+   text-align: center;
+   color: #fff;
+}
+
+.section {
+   padding: 4rem 0; /* Adjusted for desktop */
+}
+
+.section-head {
+   font-size: 2.5rem;
+   margin: 0;
+}
+
+.section h3 {
+   font-size: 2rem;
+}
+
+:root {
+   --primary-color: #b30416;
+   --primary-color-hover: #e2071d;
+   --secondary-color: #103063;
+   --secondary-color-hover: #124494;
+   --light-color: #dadada;
+}
+
+.btn {
+   padding: 1.2rem 1.5rem; /* Adjusted for desktop */
+   color: #fff;
+   display: inline-block;
+}
+
+.btn-primary {
+   background: var(--primary-color);
+}
+
+.btn-primary:hover {
+   background: var(--primary-color-hover);
+}
+
+.btn-secondary {
+   background: var(--secondary-color);
+}
+
+.btn-secondary:hover {
+   background: var(--secondary-color-hover);
+}
+
+.text-light {
+   color: var(--light-color);
+}
+
+.mb {
+   margin-bottom: 1.5rem; /* Adjusted for desktop */
+}
+
+.gap {
+   margin-top: 0;
+}
+
+.footer-bottom {
+   background-color: #333;
+   padding: 1.5rem; /* Adjusted for desktop */
+   text-align: center;
+   color: #fff;
+}
+----------------------------------------------------
+
+.small-container{
+   max-width: 1080px;
+   margin: auto;
+   padding-left: 100px;
+   padding-right: 100px;
+ }
+ .row{
+   display: flex;
+   align-items: center;
+   flex-wrap: wrap;
+   justify-content: center;
+   margin: auto;
+   padding-top: 20px;
+ 
+ }
+ .col-4{
+   flex-basis: 25%;
+   padding: 50px;
+   min-width: 200px;
+   margin-bottom: 50px;
+   transition: transform 0.5s;
+ }
+ .col-4 img{
+   width: 100%;
+ }
+ .row-2{
+   justify-content: space-between;
+   margin: 100px auto 50px;
+ }
+ select{
+   border: 1px solid #ff523b;
+   padding: 5px;
+ }
+ select:focus{
+   outline:none;
+ }
+ h4{
+   color:#fff;
+   font-weight: normal;
+ }
+ .col-4 p{
+   font-size: 14px;
+ }
+ .checked{
+   color: rgb(223, 173, 46);
+ }
+ .col-4:hover{
+   transform: translateY(-50px);
+ }
+ .small-container h2{
+        text-align: center;
+        margin-top: 10px;
+ }
+ .small-container .makeup {
+   font-weight: normal;
+   font-family: 'PT Sans', sans-serif;
+   font-size: 25px;
+   text-transform: uppercase;
+   color: #ffffff;
+
+ }
+ .small-container h3{
+      color: #dad8d8;
+ }
+ .page-btn {
+   margin: 0 auto; /* Center the buttons */
+   padding: 20px 0; /* Add some padding for spacing */
+   text-align: center; /* Center align the buttons */
+ }
+ 
+ .page-btn span {
+   display: inline-block;
+   border: 1px solid #ccc;
+   margin: 0 5px; /* Adjust margin for spacing between buttons */
+   width: 40px;
+   height: 40px;
+   line-height: 40px;
+   text-align: center;
+   cursor: pointer;
+   transition: background 0.3s, color 0.3s; /* Smooth transition effect */
+ }
+ 
+ .page-btn span:hover {
+   background: #ff523b55;
+   color: #ffffff;
+   border-color: #ff523b; /* Change border color on hover */
+ }
+ 
